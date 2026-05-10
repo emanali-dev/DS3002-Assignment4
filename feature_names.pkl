@@ -1,0 +1,6 @@
+import joblib
+
+# Jo features tumne model train karte waqt use ki theen
+feature_names = X_train.columns.tolist()  # ya jo bhi variable name hai
+
+joblib.dump(feature_names, 'feature_names.pkl')
