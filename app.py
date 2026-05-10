@@ -4,7 +4,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib, json, shap, os
+import joblib, json, os
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="CardioAI Heart Disease Screener",
